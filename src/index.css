@@ -1,0 +1,83 @@
+body {
+  font-family: 'montseratt', sans-serif;
+}
+
+.app {
+  background-image: url(https://picserio.com/data/out/303/winter-weather-wallpaper_5127775.jpg);
+  background-position: bottom;
+  transition: 0.4 ease;
+}
+
+.app.warm {
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2015/01/28/603948/085874c23a89f9d71f4c140d64c90b95.jpg);
+}
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 50%;
+  padding: 15px;
+  margin: 0 25% 0 25%;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  box-shadow: 0px 5px rgba(153, 136, 136, 0.2);
+  color: #313131;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+
+.search-box .search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.location-box .location {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  margin: 15px 0 5px 0;
+}
+
+.location-box .date {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 15px 25px;
+  color: #ffffff;
+  font-size: 102px;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box .weather {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
